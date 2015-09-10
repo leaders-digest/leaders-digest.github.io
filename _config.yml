@@ -1,0 +1,14 @@
+title:       Techlead Burst
+email:       benjamin@squeakyvessel.com
+author:      Benjamin Reitzammer
+description: "Techlead Burst - Shortest & Quickest Weekly Newsletter about Leadership Tech"
+baseurl:     "/"
+url:         "http://techlead-burst.com"
+
+markdown: kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink: /:year/:month/:day/:title/
+paginate: 5
+sass:
+  compressed: true
