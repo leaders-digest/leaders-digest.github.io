@@ -1,7 +1,8 @@
 title:       Leader's Digest
 email:       benjamin@squeakyvessel.com
 author:      Benjamin Reitzammer
-description: "Leader's Digest - Shortest & Quickest Weekly Newsletter about Leadership in Tech"
+title:       "Leader's Digest"
+subtitle:    "The Shortest & Quickest Weekly Newsletter about Leadership in Tech"
 baseurl:     "/"
 url:         "http://leaders-dige.st"
 

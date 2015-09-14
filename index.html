@@ -1,20 +1,52 @@
 ---
-layout: default
+layout: default-with-subtitle
 ---
 
 <div class="row">
-  <div class="four columns">
+  <div class="eight columns">
 
-<form style="border:1px solid #ccc;padding:3px;text-align:center;"
- action="https://tinyletter.com/leaders-digest" method="post"
- target="popupwindow"
- onsubmit="window.open('https://tinyletter.com/leaders-digest', 'popupwindow',
- 'scrollbars=yes,width=800,height=600');return true"><p><label
- for="tlemail">Enter your email address</label></p><p><input type="text"
- style="width:140px" name="email" id="tlemail" /></p><input type="hidden"
- value="1" name="embed"/><input type="submit" value="Subscribe" /><p><a
- href="https://tinyletter.com" target="_blank">powered by
- TinyLetter</a></p></form>
+    <p>
+      Leader's Digest is a weekly, curated newsletter for everyone who is
+      involved or interested in leadership topics in information technology.
+    </p>
 
+    <p>
+
+      I'm <a href="{{ site.baseurl }}about.html">Benjamin Reitzammer</a>, and I'm
+      curating Leader's Digest.
+      <br>
+      Every week I'll share a single link about people and engineering
+      management, leadership or culture with you.
+
+    </p>
+
+    <!--
+    <p>
+      You can view past issues in <a
+        href="http://tinyletter.com/leaders-digest">the archive</a>.
+    </p>
+    -->
+  </div>
+</div>
+
+<div class="row">
+  <div class="twelve columns">
+    {% include signupform.html %}
+
+  </div>
+</div>
+
+<div class="row">
+  <div class="six columns">
+    <h3>See also</h3>
+    <p>
+      List of other newsletters and regular sources of leadership inspiration.
+    </p>
+
+    <ul>
+      <li><a href="http://softwareleadweekly.com/">Software Lead Weekly</a></li>
+      <li><a href="https://medium.com/evergreen-business-weekly">Evergreen
+          Business Weekly</a></li>
+    </ul>
   </div>
 </div>
