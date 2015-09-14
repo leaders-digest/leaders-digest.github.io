@@ -1,9 +1,9 @@
-title:       Techlead Burst
+title:       Leader's Digest
 email:       benjamin@squeakyvessel.com
 author:      Benjamin Reitzammer
-description: "Techlead Burst - Shortest & Quickest Weekly Newsletter about Leadership Tech"
+description: "Leader's Digest - Shortest & Quickest Weekly Newsletter about Leadership in Tech"
 baseurl:     "/"
-url:         "http://techlead-burst.com"
+url:         "http://leaders-dige.st"
 
 markdown: kramdown
 redcarpet:
