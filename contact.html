@@ -1,0 +1,21 @@
+---
+layout: default-with-subtitle
+title: Say Hello
+---
+
+<div class="row">
+  <div class="one-half column">
+    <h4>Contact</h4>
+    <form action="https://formspree.io/{{ site.email }}"
+      method="POST"
+      class="contact">
+    <input type="text" name="_replyto" placeholder="Email Address">
+    <textarea type="text" name="content" rows="5" placeholder="What would you like to say?"></textarea>
+    <input type="hidden" name="_next" value="{{ site.url }}/thanks.html" />
+    <input type="hidden" name="_subject" value="New submission!" />
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" class="button button-primary" value="Say Hello">
+  </form>
+  </div>
+</div>
+

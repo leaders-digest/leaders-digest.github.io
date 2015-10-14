@@ -17,6 +17,21 @@ h1 a {
   font-style: italic;
 }
 
+form.contact {
+  display: table;
+  width: 100%;
+
+  input, h4, p {
+    display: table;
+  }
+  input[type=text], textarea {
+    width: 95%;
+  }
+  input[type=submit] {
+    width: 50%;
+  }
+}
+
 form.cta {
   border-top:1px solid #ccc;
   border-bottom:1px solid #ccc;
